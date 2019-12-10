@@ -1,1 +1,1 @@
-# EAI_QAAutomation
+# EAIAutomation
