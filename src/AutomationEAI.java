@@ -9,7 +9,7 @@ public class AutomationEAI {
         System.setProperty("webdriver.gecko.driver", ".\\drivers\\geckodriver.exe");
         WebDriver driver = new FirefoxDriver();
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-        driver.navigate().to("https://ola.pt");
+        driver.navigate().to("https://www.google.com");
 
         driver.close();
     }
